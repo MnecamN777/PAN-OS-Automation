@@ -8,6 +8,7 @@ It includes scripts for configuration management, security checks, policy cleanu
 Project Structure
 
 firewall-automation/
+
 │
 ├── src/
 
