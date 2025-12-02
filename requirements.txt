@@ -1,0 +1,9 @@
+ipdb
+dotenv
+pan-os-python
+pan-python
+ipaddress
+rich
+lxml
+pywin32
+requests
