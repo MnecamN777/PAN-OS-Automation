@@ -10,43 +10,66 @@ Project Structure
 firewall-automation/
 │
 ├── src/
-│ ├── core/  
+
+│ ├── core/
+
 │ │ └── **init**.py
+
 │ │
-│ ├── scripts/  
+│ ├── scripts/
+
 │ │ ├── blocking_soc_ip_address.py
 
 │ │ ├── certifcation_expiry_check.py
 
 │ │ ├── creating_address_object.py
+
 │ │ ├── adding_object_to_group.py
+
 │ │ ├── disable_0_hit_rules.py
+
 │ │ ├── delete_disabled_rules.py
+
 │ │ ├── finding_overpermissive_rules.py
+
 │ │ ├── export_configuration.py
+
 │ │ ├── commit_configuration.py
+
 | | ├── send_email.py
+
 │ │ ├── showing_system_info.py
+
 │ │ └── **init**.py
+
 │  
 │  
 │
 ├── config/
-│ ├── fw_credentials.json  
+
+│ ├── fw_credentials.json
+
 │ ├── fw_credemtials.example.json  
 │  
 │
 ├── data/
-│ ├── bad_ips.txt  
+
+│ ├── bad_ips.txt
+
 │ └── backups/  
 │
-├── logs/  
+├── logs/
+
 │ └── firewall_logs.log
+
 │
 │
 ├── requirements.txt
-├── .env  
+
+├── .env
+
 ├── .gitignore
+
 ├── README.md
 
 ---
