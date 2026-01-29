@@ -1,0 +1,136 @@
+INFO:root:Script for showing system info is running 2025-11-26 14:54:18.134599
+INFO:root:Script for showing system info is running 2025-11-26 14:54:42.697439
+INFO:root:Script for exporting configuration is running 2025-11-26 14:56:51.666304
+INFO:root:Script for checking certifications expiration is running 2025-11-26 15:26:54.262926
+INFO:root:Script for checking certifications expiration is running 2025-11-26 15:27:49.198980
+INFO:root:Script for checking certifications expiration is running 2025-11-26 15:28:02.954117
+INFO:root:Script for showing system info is running 2025-11-26 15:30:29.220701
+INFO:root:Script for checking certifications expiration is running 2025-11-26 15:30:42.069125
+INFO:root:Script for checking certifications expiration is running 2025-11-26 15:32:31.186984
+INFO:root: Certificate /C=RS/ST=Beograd/L=Beograd/O=Preduze\xC4\x87e za telekomunikacije Telekom Srbija a.d., Beograd/CN=ztna.telekom.rs Expired !!! at <class 'datetime.datetime'>
+INFO:root:Script for finding overpermissive rules is running at 2025-11-26 15:32:46.488409
+INFO:root:Script for finding overpermissive rules is running at 2025-11-26 15:36:50.001924
+INFO:root:Script for checking certifications expiration is running 2025-11-26 15:37:37.938485
+INFO:root: Certificate /C=RS/ST=Beograd/L=Beograd/O=Preduze\xC4\x87e za telekomunikacije Telekom Srbija a.d., Beograd/CN=ztna.telekom.rs Expired !!! at <class 'datetime.datetime'>
+INFO:root:Script for finding overpermissive rules is running at 2025-11-26 15:41:29.622151
+INFO:root:Script for exporting configuration is running 2025-11-26 15:41:47.291610
+INFO:root:Configuration exported to data folder --- fw_conf.xml 2025-11-26 15:41:48.744749
+INFO:root:Script for checking certifications expiration is running 2025-11-26 15:41:59.926269
+INFO:root: Certificate /C=RS/ST=Beograd/L=Beograd/O=Preduze\xC4\x87e za telekomunikacije Telekom Srbija a.d., Beograd/CN=ztna.telekom.rs Expired !!! at <class 'datetime.datetime'>
+INFO:root:Created address object SOC_Address_100.151.151.151 and added to group Malicious_IP_addresses at 2025-11-26 15:42:24.262252
+INFO:root:Configuration commited at 2025-11-26 15:42:25.740460
+INFO:root:Script for disabling policies with 0 hits is running at 2025-11-26 15:42:44.922872
+INFO:root:Script for disabling policies with 0 hits is running at 2025-11-26 15:45:22.234378
+INFO:root:Configuration commited at 2025-11-26 15:45:32.835087
+INFO:root:Script for checking certifications expiration is running 2025-11-26 15:50:59.369061
+INFO:root: Certificate /C=RS/ST=Beograd/L=Beograd/O=Preduze\xC4\x87e za telekomunikacije Telekom Srbija a.d., Beograd/CN=ztna.telekom.rs Expired !!! at <class 'datetime.datetime'>
+INFO:root:Script for checking certifications expiration is running 2025-11-27 09:35:23.346257
+INFO:root: Certificate /C=RS/ST=Beograd/L=Beograd/O=Preduze\xC4\x87e za telekomunikacije Telekom Srbija a.d., Beograd/CN=ztna.telekom.rs Expired !!! at <class 'datetime.datetime'>
+INFO:root:Script for checking certifications expiration is running 2025-11-27 10:12:53.926607
+INFO:root: Certificate /C=RS/ST=Beograd/L=Beograd/O=Preduze\xC4\x87e za telekomunikacije Telekom Srbija a.d., Beograd/CN=ztna.telekom.rs Expired !!! at <class 'datetime.datetime'>
+INFO:root:Script for checking certifications expiration is running 2025-11-27 10:15:42.179170
+INFO:root: Certificate /C=RS/ST=Beograd/L=Beograd/O=Preduze\xC4\x87e za telekomunikacije Telekom Srbija a.d., Beograd/CN=ztna.telekom.rs Expired !!! at 2025-06-25 07:56:04
+INFO:root:Script for disabling policies with 0 hits is running at 2025-12-01 11:07:27.129308
+INFO:root:Script for disabling policies with 0 hits is running at 2025-12-01 11:09:06.136310
+INFO:root:Configuration commited at 2025-12-01 11:09:15.752971
+INFO:root:Script for disabling policies with 0 hits is running at 2025-12-01 11:13:29.729118
+INFO:root:Configuration commited at 2025-12-01 11:13:48.957048
+INFO:root:Script for disabling policies with 0 hits is running at 2025-12-01 11:14:14.984384
+INFO:root:Configuration commited at 2025-12-01 11:14:35.861679
+INFO:root:Script for exporting configuration is running 2025-12-03 10:53:13.957763
+INFO:root:Script for exporting configuration is running 2025-12-03 10:54:19.734217
+INFO:root:Configuration exported to data folder --- fw_conf.xml 2025-12-03 10:54:23.390419
+INFO:root:Script for exporting configuration is running 2025-12-03 10:54:46.233959
+INFO:root:Configuration exported to data folder --- fw_conf.xml 2025-12-03 10:54:49.414533
+INFO:root:Script for exporting configuration is running 2025-12-03 10:56:06.749683
+INFO:root:Configuration exported to data folder --- fw_conf.xml 2025-12-03 10:56:08.174656
+INFO:root:Script for exporting configuration is running 2025-12-03 10:56:25.147407
+INFO:root:Configuration exported to data folder --- fw_conf.xml 2025-12-03 10:56:26.790777
+INFO:root:Script for exporting configuration is running 2025-12-03 10:57:00.494090
+INFO:root:Script for exporting configuration is running 2025-12-03 10:57:27.387733
+INFO:root:Configuration exported to data folder --- fw_conf.xml 2025-12-03 10:57:29.144197
+INFO:root:Script for exporting configuration is running 2025-12-03 10:59:21.782401
+INFO:root:Configuration exported to data folder --- fw_conf.xml 2025-12-03 10:59:23.111512
+INFO:root:Script for exporting configuration is running 2025-12-03 10:59:53.027673
+INFO:root:Configuration exported to data folder --- fw_conf.xml 2025-12-03 10:59:54.364096
+INFO:root:Script for exporting configuration is running 2025-12-03 11:00:57.561731
+INFO:root:Configuration exported to data folder --- fw_conf_10.0.10.10_03-12-2025.xml 2025-12-03 11:01:00.481199
+INFO:root:Script for exporting configuration is running 2025-12-03 11:04:17.206930
+INFO:root:Script for exporting configuration is running 2025-12-03 11:04:46.432496
+INFO:root:Script for exporting configuration is running 2025-12-03 11:06:37.636691
+INFO:root:Configuration exported to data folder --- fw_conf_10.0.10.10_03-12-2025-11-06-37.xml 2025-12-03 11:06:38.986858
+INFO:root:Script for exporting configuration is running 2025-12-03 11:06:54.693000
+INFO:root:Configuration exported to data folder --- fw_conf_10.0.10.10_03-12-2025-11-06-54.xml 2025-12-03 11:06:56.060437
+INFO:root:Script for exporting configuration is running 2025-12-03 11:09:04.278804
+INFO:root:Configuration exported to data folder --- fw_conf_10.0.10.10_03-12-2025-11-09-04.xml 2025-12-03 11:09:06.170179
+INFO:root:Script for disabling policies with 0 hits is running at 2025-12-03 11:14:02.349050
+INFO:root:Script for disabling policies with 0 hits is running at 2025-12-03 11:15:34.353091
+INFO:root:Script for exporting configuration is running 2025-12-03 11:15:36.346653
+INFO:root:Configuration exported to data folder --- fw_conf_10.0.10.10_03-12-2025-11-15-36.xml 2025-12-03 11:15:37.708229
+INFO:root:Configuration commited at 2025-12-03 11:16:00.694802
+INFO:root:Script for disabling policies with 0 hits is running at 2025-12-03 11:26:19.254150
+INFO:root:Script for exporting configuration is running 2025-12-03 11:26:21.227158
+INFO:root:Configuration exported to data folder --- fw_conf_10.0.10.10_03-12-2025-11-26-21.xml 2025-12-03 11:26:24.920208
+INFO:root:Script for exporting configuration is running 2025-12-03 11:26:27.218115
+INFO:root:Configuration exported to data folder --- fw_conf_10.0.10.10_03-12-2025-11-26-27.xml 2025-12-03 11:26:30.921458
+INFO:root:Configuration commited at 2025-12-03 11:26:56.543284
+INFO:root:Script for disabling policies with 0 hits is running at 2025-12-03 11:33:46.886235
+INFO:root:Script for exporting configuration is running 2025-12-03 11:33:49.061869
+INFO:root:Configuration exported to data folder --- fw_conf_10.0.10.10_03-12-2025-11-33-49.xml 2025-12-03 11:33:52.887028
+INFO:root:Configuration commited at 2025-12-03 11:34:10.494067
+INFO:root:Script for disabling policies with 0 hits is running at 2025-12-03 12:01:55.317222
+INFO:root:Script for exporting configuration is running 2025-12-03 12:01:58.126857
+INFO:root:Configuration exported to data folder --- fw_conf_10.0.10.10_03-12-2025-12-01-58.xml 2025-12-03 12:02:02.005693
+INFO:root:Configuration commited at 2025-12-03 12:02:14.713018
+INFO:root:Script for disabling policies with 0 hits is running at 2025-12-03 12:03:23.054915
+INFO:root:Script for exporting configuration is running 2025-12-03 12:03:25.518256
+INFO:root:Configuration exported to data folder --- fw_conf_10.0.10.10_03-12-2025-12-03-25.xml 2025-12-03 12:03:29.198667
+INFO:root:Configuration commited at 2025-12-03 12:03:47.128406
+INFO:root:Script for disabling policies with 0 hits is running at 2025-12-03 12:03:52.996014
+INFO:root:Script for exporting configuration is running 2025-12-03 12:03:55.531148
+INFO:root:Configuration exported to data folder --- fw_conf_10.0.10.10_03-12-2025-12-03-55.xml 2025-12-03 12:03:57.063989
+INFO:root:Configuration commited at 2025-12-03 12:04:22.087006
+INFO:root:Script for disabling policies with 0 hits is running at 2025-12-03 12:05:27.661888
+INFO:root:Script for exporting configuration is running 2025-12-03 12:05:29.665491
+INFO:root:Configuration exported to data folder --- fw_conf_10.0.10.10_03-12-2025-12-05-29.xml 2025-12-03 12:05:31.229661
+INFO:root:Configuration commited at 2025-12-03 12:06:01.396883
+INFO:root:Script for disabling policies with 0 hits is running at 2025-12-03 12:09:04.697925
+INFO:root:Script for exporting configuration is running 2025-12-03 12:09:06.725752
+INFO:root:Configuration exported to data folder --- fw_conf_10.0.10.10_03-12-2025-12-09-06.xml 2025-12-03 12:09:09.335233
+INFO:root:Configuration commited at 2025-12-03 12:09:50.778357
+INFO:root:Script for disabling policies with 0 hits is running at 2025-12-03 12:18:50.498273
+INFO:root:Script for exporting configuration is running 2025-12-03 12:18:53.170714
+INFO:root:Configuration exported to data folder --- fw_conf_10.0.10.10_03-12-2025-12-18-53.xml 2025-12-03 12:18:55.838705
+INFO:root:Script for exporting configuration is running 2025-12-03 12:18:55.979420
+INFO:root:Script for disabling policies with 0 hits is running at 2025-12-03 12:19:34.818262
+INFO:root:Script for exporting configuration is running 2025-12-03 12:19:37.259026
+INFO:root:Configuration exported to data folder --- fw_conf_10.0.10.10_03-12-2025-12-19-37.xml 2025-12-03 12:19:40.857637
+INFO:root:Script for exporting configuration is running 2025-12-03 12:19:40.999418
+INFO:root:Script for disabling policies with 0 hits is running at 2025-12-03 12:20:09.683558
+INFO:root:Script for exporting configuration is running 2025-12-03 12:20:11.785509
+INFO:root:Configuration exported to data folder --- fw_conf_10.0.10.10_03-12-2025-12-20-11.xml 2025-12-03 12:20:15.707709
+INFO:root:Script for exporting configuration is running 2025-12-03 12:20:15.846659
+INFO:root:Configuration exported to data folder --- fw_conf_03-12-2025-12-20-15.xml 2025-12-03 12:20:17.857498
+INFO:root:Configuration commited at 2025-12-03 12:20:42.193159
+INFO:root:Script for exporting configuration is running 2025-12-03 12:21:41.469101
+INFO:root:Configuration exported to data folder --- fw_conf_10.0.10.10_03-12-2025-12-21-41.xml 2025-12-03 12:21:43.647412
+INFO:root:Script for disabling policies with 0 hits is running at 2025-12-03 12:49:03.396754
+INFO:root:Script for exporting configuration is running 2025-12-03 12:49:05.710489
+INFO:root:Configuration exported to data folder --- fw_conf_10.0.10.10_03-12-2025-12-49-05.xml 2025-12-03 12:49:09.371349
+INFO:root:Script for disabling policies with 0 hits is running at 2025-12-03 12:49:41.113106
+INFO:root:Script for exporting configuration is running 2025-12-03 12:49:44.137366
+INFO:root:Configuration exported to data folder --- fw_conf_10.0.10.10_03-12-2025-12-49-44.xml 2025-12-03 12:49:47.866361
+INFO:root:Script for disabling policies with 0 hits is running at 2025-12-03 12:50:15.334357
+INFO:root:Script for exporting configuration is running 2025-12-03 12:50:17.439919
+INFO:root:Configuration exported to data folder --- fw_conf_10.0.10.10_03-12-2025-12-50-17.xml 2025-12-03 12:50:20.919772
+INFO:root:Script for exporting configuration is running 2025-12-03 12:50:21.084354
+INFO:root:Configuration exported to data folder --- fw_conf_03-12-2025-12-50-21.xml 2025-12-03 12:50:24.654286
+INFO:root:Configuration commited at 2025-12-03 12:50:32.534167
+INFO:root:Script for disabling policies with 0 hits is running at 2025-12-03 13:23:57.464001
+INFO:root:Script for exporting configuration is running 2025-12-03 13:23:59.607059
+INFO:root:Configuration exported to data folder --- fw_conf_10.0.10.10_03-12-2025-13-23-59.xml 2025-12-03 13:24:04.133297
+INFO:root:Script for exporting configuration is running 2025-12-03 13:24:04.292606
+INFO:root:Configuration exported to data folder --- fw_conf_03-12-2025-13-24-04.xml 2025-12-03 13:24:08.076880
+INFO:root:Script for exporting configuration is running 2025-12-03 14:45:47.992417
+INFO:root:Script for exporting configuration is running 2025-12-03 14:46:44.999780
+INFO:root:Configuration exported to data folder --- fw_conf_03-12-2025-14-46-45.xml 2025-12-03 14:46:49.203002

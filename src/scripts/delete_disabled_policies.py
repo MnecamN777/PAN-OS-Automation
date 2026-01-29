@@ -13,7 +13,8 @@ from dotenv import load_dotenv
 from datetime import datetime
 from commit_configuration import commit_function
 import json
-
+import subprocess
+from export_conf import export
 from pathlib import Path
 
 project_root = Path(__file__).resolve().parent.parent.parent
@@ -25,6 +26,10 @@ logging.basicConfig(filename=f'{log_file}', level=logging.INFO)
 
 logging.info(f"Script for disabling policies with 0 hits is running at {datetime.now()}")
 
+
+backup_file = project_root / "src" / "scripts" / "exporting_configuration.py"
+#subprocess.run(["python", ".\src\scripts\exporting_configuration.py"])
+subprocess.run(["python", f"{backup_file}"])
 
 # ===== Loading environmental variables form .env file
 
@@ -54,6 +59,7 @@ for fw in firewalls:
    
     firewall = Firewall(firewall_host, username, password)
 
+    export(firewall, project_root)
     rulebase = firewall.add(Rulebase())
     security_policies = SecurityRule.refreshall(rulebase)
 
@@ -77,6 +83,6 @@ for fw in firewalls:
             policy.delete()
             
 
-    commit_function(firewall)
+    #commit_function(firewall)
 # ===== commiting changes to the firewall
 

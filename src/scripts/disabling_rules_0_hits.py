@@ -13,8 +13,9 @@ from dotenv import load_dotenv
 from datetime import datetime
 from commit_configuration import commit_function
 import json
-
+import subprocess
 from pathlib import Path
+from export_conf import export
 
 project_root = Path(__file__).resolve().parent.parent.parent
 load_dotenv(project_root / ".env") 
@@ -25,15 +26,11 @@ logging.basicConfig(filename=f'{log_file}', level=logging.INFO)
 
 logging.info(f"Script for disabling policies with 0 hits is running at {datetime.now()}")
 
+backup_file = project_root / "src" / "scripts" / "exporting_configuration.py"
+#subprocess.run(["python", ".\src\scripts\exporting_configuration.py"])
+subprocess.run(["python", f"{backup_file}"])
 
-# ===== Loading environmental variables form .env file
 
-#firewall_host = os.getenv("firewall_host1")
-#username = os.getenv("user1")
-#password = os.getenv("pass1")
-
-# ===== creating firewall object and connecting to it 
-#firewall = Firewall(firewall_host, username, password)
 
 with open(f"{project_root}/config/fw_credentials.json") as f:
     firewalls = json.load(f)
@@ -53,12 +50,13 @@ for fw in firewalls:
     password = fw["password"]
    
     firewall = Firewall(firewall_host, username, password)
-
+    export(firewall, project_root)
     rulebase = firewall.add(Rulebase())
     security_policies = SecurityRule.refreshall(rulebase)
 
     rulebase_hit_count = RulebaseHitCount(firewall)
     hit_count = rulebase_hit_count.refresh(style="security", rules=security_policies)
+   
 
     tags = Tag.refreshall(firewall)
     
