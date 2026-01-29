@@ -67,4 +67,4 @@ for fw in firewalls:
  
     commit_function(firewall)
 
-    #sending_email()
+    sending_email()
