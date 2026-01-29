@@ -1,7 +1,6 @@
 .env
 config/fw_credentials.json
 data/backups/fw*
-data/bad_ips.txt
 logs/firewall_logs.logs
 src/scripts/__pycache__
 improvements.txt
