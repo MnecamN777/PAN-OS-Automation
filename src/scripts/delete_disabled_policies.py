@@ -28,17 +28,8 @@ logging.info(f"Script for disabling policies with 0 hits is running at {datetime
 
 
 backup_file = project_root / "src" / "scripts" / "exporting_configuration.py"
-#subprocess.run(["python", ".\src\scripts\exporting_configuration.py"])
 subprocess.run(["python", f"{backup_file}"])
 
-# ===== Loading environmental variables form .env file
-
-#firewall_host = os.getenv("firewall_host1")
-#username = os.getenv("user1")
-#password = os.getenv("pass1")
-
-# ===== creating firewall object and connecting to it 
-#firewall = Firewall(firewall_host, username, password)
 
 with open(f"{project_root}/config/fw_credentials.json") as f:
     firewalls = json.load(f)
@@ -83,6 +74,6 @@ for fw in firewalls:
             policy.delete()
             
 
-    #commit_function(firewall)
+    commit_function(firewall)
 # ===== commiting changes to the firewall
 
