@@ -87,7 +87,7 @@ Installation
 
 1. Clone the repository:
 
-git clone https://github.com/your-org/pan_fw_automation.git
+git clone https://github.com/MnecamN777/PAN-OS-Automation
 
 2. In .env file put your credentials for the firewalls:
 firewall_host1= 
@@ -104,6 +104,7 @@ pass1=
   }
 
  4. Run scripts python src/scripts/_script_name 
+
 
 
 
