@@ -10,34 +10,54 @@ Project Structure
 firewall-automation/
 │
 ├── src/
-│   ├── core/                       
+
+│   ├── core/
+
 │   │   └── __init__.py
         | op_config.py
+        
 │   │
-│   ├── scripts/                   
+│   ├── scripts/ 
+
 │   │   ├── blocking_soc_ip_address.py
+
 │   │   ├── certifcation_expiry_check.py
+
 │   │   ├── creating_address_object.py
+
 │   │   ├── adding_object_to_group.py
+
 │   │   ├── disable_0_hit_rules.py
+
 │   │   ├── delete_disabled_rules.py
+
 │   │   ├── export_conf.py
+
 │   │   ├── finding_overpermissive_rules.py
+
 │   │   ├── exporting_configuration.py
+
 │   │   ├── commit_configuration.py
+
 |   |   ├── send_email.py
+
 │   │   ├── showing_system_info.py
+
 │   │   └── __init__.py
 │   
 │                      
 │
 ├── config/
-│   ├── fw_credentials.json        
+
+│   ├── fw_credentials.json
+
 │   ├── fw_credemtials.example.json  
 │   
 │
 ├── data/
-│   ├── bad_ips.txt                 
+
+│   ├── bad_ips.txt   
+
 │   └── backups/                    
 │
 ├── logs/                           
@@ -45,8 +65,11 @@ firewall-automation/
 │
 │
 ├── requirements.txt
-├── .env                          
+
+├── .env                
+
 ├── .gitignore
+
 ├── README.md
 
 
@@ -109,3 +132,4 @@ pass1=
 
 
 Developed a Python-based Palo Alto firewall automation suite using the PAN-OS SDK, enabling certificate monitoring, policy optimization, address-object orchestration, multi-firewall configuration backups, and automated SOC workflows (malicious IP blocking, alerting). Improved operational efficiency, accuracy, and consistency across security teams.
+
