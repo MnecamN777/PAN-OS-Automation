@@ -66,15 +66,16 @@ for fw in firewalls:
         print(f"Rule: {rule_name}  Hit count: {hit.hit_count}")
     '''
 
-    # delete policies who are disabled, action = action and tag TO_DELETE
+    # delete policies who are disabled, action = allow and tag TO_DELETE
     for policy in security_policies:
         hit = hit_count.get(policy.name)
-        if policy.disabled == True and policy.action == "action":
+        if policy.disabled == True and policy.action == "allow":
             print(f'Rule {policy} is deleted')
             policy.delete()
             
 
     commit_function(firewall)
 # ===== commiting changes to the firewall
+
 
 
