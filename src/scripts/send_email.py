@@ -12,16 +12,17 @@ def sending_email():
     outlookNS = outlookApp.GetNameSpace('MAPI')
 
     mailItem = outlookApp.CreateItem(0)
-    mailItem.Subject = 'Blokiranje IP adrese - automation'
+    mailItem.Subject = 'Blockling IP address - automation'
     mailItem.BodyFormat = 1
     mailItem.Body = (
                          'Hello, \n \n' 
                         'IP address is blocked. \n \n' )
     mailItem.To = ''
     mailItem.CC = ''
-    logging.info(f"Mail sent to SOC at {datetime.now()}")
+    logging.info(f"Mail sent to SOC analyst at {datetime.now()}")
 
     mailItem.Display()
     mailItem.Save()
     mailItem.Send()
+
     #sending_email()
