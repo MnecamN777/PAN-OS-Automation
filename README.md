@@ -64,6 +64,7 @@ firewall-automation/
 │   └── firewall_logs.log
 │
 │
+
 ├── requirements.txt
 
 ├── .env                
@@ -132,4 +133,5 @@ pass1=
 
 
 Developed a Python-based Palo Alto firewall automation suite using the PAN-OS SDK, enabling certificate monitoring, policy optimization, address-object orchestration, multi-firewall configuration backups, and automated SOC workflows (malicious IP blocking, alerting). Improved operational efficiency, accuracy, and consistency across security teams.
+
 
